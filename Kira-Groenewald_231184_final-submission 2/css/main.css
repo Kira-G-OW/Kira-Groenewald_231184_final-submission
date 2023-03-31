@@ -1,0 +1,446 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: lightgray;
+}
+
+.nav-con{
+    width: 550px;
+    height: 70px;
+    margin-top: 1px;
+    float: left;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+.nav-con li{
+    height: 35px;
+    padding-top: 5px;
+    padding-right: 6%;
+    padding-left: -50px;
+    margin-top: 3%;
+    float: left ;
+}
+
+.nav-second{
+    width: 550px;
+    height: 70px;
+    margin-top: 1px;
+    float: right;
+}
+
+.nav-second ul{
+    list-style: none;
+}
+
+.nav-second li{
+    height: 35px;
+    background-color: lightgray;
+    margin-top: 3%;
+    margin-right: 150px;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid #000;
+    float: right;
+}
+
+.nav-main{
+    width: 550px;
+    height: 70px;
+    margin-top: 1px;
+    float: left;
+}
+
+.nav-main{
+    width: 550px;
+    height: 70px;
+    margin-top: 1px;
+    float: left;
+}
+
+.nav-main ul{
+    list-style: none;
+}
+
+.nav-main li{
+    height: 35px;
+    padding-top: 5px;
+    padding-left: -50px;
+    padding-right: 6%;
+    margin-top: 3%;
+    float: left;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-color: lightgray;
+    padding-top: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header p{
+    width: 800px;
+    padding-top: 3px;
+}
+
+header h1{
+    width: 600px;
+    font-size: 50px;
+    margin-left: -15px;
+}
+
+header h3{
+    margin-left: -13px;
+    font-size: 30px;
+}
+
+.gr-btn{
+    width: 400px;
+    height: 70px;
+    margin-top: 70px;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.normal{
+    background-color: #2b2b2b;
+    color: #ffff;
+}
+
+.inverted{
+    border: 2px solid #2b2b2b;
+    padding-top: 5px !important;
+}
+
+.col-box1{
+    width: 50%;
+    height: 560px;
+    background-color: white;
+    text-align: center;
+    margin-top: -3%;
+    padding-top: 140px;
+    margin-left: 45%;
+}
+
+.col-box1 h1{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.col-box1 h3{
+    text-align: left;
+    margin-left: 15%;
+    margin-top: -110px;
+}
+
+.col-box p{
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.col-box{
+    width: 40%;
+    height: 330px;
+    background-color: gray;
+    text-align: center;
+    margin-top: -560px;
+    padding-top: 140px;
+    margin-left: 160px;
+}
+
+.RRPA{
+    margin-left: 122px;
+    margin-top: 80px;
+}
+
+.col-box2{
+    width: 277px;
+    height: 277px;
+    background-color: lightgray;
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-Hozier{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Hozier\ Album\ cover.png);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-Cleopatra{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Cleopatra_album_cover.jpg);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-Noah-Kahan{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Noah\ Kahan\ Album\ Cover.jpeg);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-eat-your-young{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Eat\ Your\ Young\ Album\ Cover.jpeg);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-girl-in-red{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Girl\ in\ Red\ Album\ Cover.jpeg);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-kings-of-leon{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Kings\ of\ Leon\ Album\ Cover.png);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-zach-bryan{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Zach\ Bryan\ Album\ Cover.png);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-george-ezra{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/George\ Ezra\ Album\ Cover.png);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-harry-styles{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Harry\ Styles\ Album\ Cover.webp);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.col-box2-queen{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Queen\ Album\ Cover.jpeg);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-TOP{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/TOP\ Album\ Cover.png);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box2-heydaze{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/Heydaze\ Album\ Covers.jpeg);
+    margin-top: 25px;
+    margin-left: 122px;
+    margin-right: 122px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-box3{
+    width: 277px;
+    height: 70px;
+    background-color: gray;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: -795px;
+}
+
+.col-box4{
+    width: 277px;
+    height: 70px;
+    background-color: gray;
+    margin-left: 1280px;
+    margin-top: -370px;
+}
+
+.col-box5{
+    width: 277px;
+    height: 70px;
+    background-color: gray;
+    margin-top: -70px;
+    margin-right: 122px;
+    margin-left: 122px;
+}
+
+.col-box3 p{
+    color: white;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.col-box4 p{
+    color: white;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.col-box5 p{
+    color: white;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.col-box4 h5{
+    color: white;
+    margin-left: 10px;
+    padding-top: -15px;
+}
+
+.col-box4 h5{
+    color: white;
+    margin-left: 10px;
+    padding-top: -15px;
+}
+
+.col-box5 h5{
+    color: white;
+    margin-left: 10px;
+    padding-top: -15px;
+}
+
+.round{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 225px;
+    margin-top: -200px;
+}
+
+.round1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 225px;
+    margin-top: -920px;
+}
+
+.round2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 1385px;
+    margin-top: -500px; 
+}
+
+.button1{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    float: right;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.gr-btn-1{
+    width: 600px;
+    height: 70px;
+    margin-top: 70px;
+}
+
+.inverted1{
+    border: 2px solid #2b2b2b;
+    padding-top: 5px !important;
+}
+
+.text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
